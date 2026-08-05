@@ -1,0 +1,19 @@
+{
+  "collider": {
+    "mode": "custom",
+    "entries": [
+      {
+        "id": "collider-1",
+        "offset": {
+          "x": 0,
+          "y": 0.056,
+          "z": 0
+        },
+        "shape": "mesh",
+        "source": "baked",
+        "bakedPath": "models/chess_set_1k.collider.glb",
+        "simplifyRatio": 0.0234
+      }
+    ]
+  }
+}

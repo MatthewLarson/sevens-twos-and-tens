@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "deck-e682a22c-13b1-4b85-afd6-445d88a47246",
+  "name": "deck-1",
+  "face": {
+    "texturePath": "assets/textures/decks/deck-1/sheet-1.webp",
+    "columns": 7,
+    "rows": 2,
+    "cardCount": 13,
+    "cardWidthPx": 512,
+    "cardHeightPx": 716
+  },
+  "uniqueBacks": false,
+  "back": {
+    "kind": "single",
+    "texturePath": "7210-back.webp"
+  },
+  "sideways": false,
+  "backIsHidden": false,
+  "cardFields": [],
+  "deckFields": [],
+  "data": {},
+  "cards": [
+    {
+      "cardId": "card-1",
+      "label": "2",
+      "faceIndex": 0,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/000-7210-face-02.webp"
+    },
+    {
+      "cardId": "card-2",
+      "label": "3",
+      "faceIndex": 1,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/001-7210-face-03.webp"
+    },
+    {
+      "cardId": "card-3",
+      "label": "4",
+      "faceIndex": 2,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/002-7210-face-04.webp"
+    },
+    {
+      "cardId": "card-4",
+      "label": "5",
+      "faceIndex": 3,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/003-7210-face-05.webp"
+    },
+    {
+      "cardId": "card-5",
+      "label": "6",
+      "faceIndex": 4,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/004-7210-face-06.webp"
+    },
+    {
+      "cardId": "card-6",
+      "label": "7",
+      "faceIndex": 5,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/005-7210-face-07.webp"
+    },
+    {
+      "cardId": "card-7",
+      "label": "8",
+      "faceIndex": 6,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/006-7210-face-08.webp"
+    },
+    {
+      "cardId": "card-8",
+      "label": "9",
+      "faceIndex": 7,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/007-7210-face-09.webp"
+    },
+    {
+      "cardId": "card-9",
+      "label": "10",
+      "faceIndex": 8,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/008-7210-face-10.webp"
+    },
+    {
+      "cardId": "card-10",
+      "label": "11",
+      "faceIndex": 9,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/009-7210-face-11.webp"
+    },
+    {
+      "cardId": "card-11",
+      "label": "12",
+      "faceIndex": 10,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/010-7210-face-12.webp"
+    },
+    {
+      "cardId": "card-12",
+      "label": "13",
+      "faceIndex": 11,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/011-7210-face-13.webp"
+    },
+    {
+      "cardId": "card-13",
+      "label": "14",
+      "faceIndex": 12,
+      "count": 4,
+      "assetPath": "assets/textures/decks/deck-1/cards/012-7210-face-14.webp"
+    }
+  ]
+}
