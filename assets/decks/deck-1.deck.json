@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "deck-e682a22c-13b1-4b85-afd6-445d88a47246",
-  "name": "deck-1",
+  "name": "seven-twos-and-tens-deck",
   "face": {
     "texturePath": "assets/textures/decks/deck-1/sheet-1.webp",
     "columns": 7,
