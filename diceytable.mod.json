@@ -10,6 +10,8 @@
   },
   "assets": [
     "models/chess_set_1k.meta.json",
+    "models/chess_set_1k.glb",
+    "models/chess_set_1k.collider.glb",
     "media/screenshot-0.webp",
     "media/cover.webp",
     "media/cover-thumb.webp",
