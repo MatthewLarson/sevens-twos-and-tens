@@ -16,6 +16,12 @@
     "texturePath": "7210-back.webp"
   },
   "sideways": false,
+  "art": {
+    "fit": "cover",
+    "bleedPx": 1,
+    "cornerRadius": 0.072,
+    "backgroundColor": "#000000"
+  },
   "backIsHidden": false,
   "cardFields": [],
   "deckFields": [],
