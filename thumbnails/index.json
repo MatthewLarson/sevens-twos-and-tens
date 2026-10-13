@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "rendererVersion": 1,
+  "entries": {
+    "7210-back.webp": {
+      "inputHash": "51d0be33bbfb7903",
+      "file": "thumbnails/7210-back.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-02.webp": {
+      "inputHash": "41c48a3abf62f021",
+      "file": "thumbnails/7210-face-02.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-03.webp": {
+      "inputHash": "43add675fa995244",
+      "file": "thumbnails/7210-face-03.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-04.webp": {
+      "inputHash": "2d6a9f6315cafae2",
+      "file": "thumbnails/7210-face-04.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-05.webp": {
+      "inputHash": "d3bca2d5540e1a88",
+      "file": "thumbnails/7210-face-05.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-06.webp": {
+      "inputHash": "8eda14e5d546d2a4",
+      "file": "thumbnails/7210-face-06.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-07.webp": {
+      "inputHash": "27074164feca8e31",
+      "file": "thumbnails/7210-face-07.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-09.webp": {
+      "inputHash": "3d9c80ea6d2305f7",
+      "file": "thumbnails/7210-face-09.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-10.webp": {
+      "inputHash": "0c409be3424d0128",
+      "file": "thumbnails/7210-face-10.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-11.webp": {
+      "inputHash": "cc190c4f3c19866a",
+      "file": "thumbnails/7210-face-11.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-12.webp": {
+      "inputHash": "f7b303e755318182",
+      "file": "thumbnails/7210-face-12.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-13.webp": {
+      "inputHash": "ff4a3c47e9494270",
+      "file": "thumbnails/7210-face-13.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "7210-face-14.webp": {
+      "inputHash": "2f0f934275eb7fba",
+      "file": "thumbnails/7210-face-14.webp.webp",
+      "width": 183,
+      "height": 256
+    },
+    "assets/decks/deck-1.deck.json": {
+      "inputHash": "e43d57bc90c1e033",
+      "file": "thumbnails/assets/decks/deck-1.deck.json.webp",
+      "width": 183,
+      "height": 256
+    },
+    "assets/textures/decks/deck-1/sheet-1.webp": {
+      "inputHash": "7b974bac9e622d7e",
+      "file": "thumbnails/assets/textures/decks/deck-1/sheet-1.webp.webp",
+      "width": 256,
+      "height": 102
+    },
+    "media/cover-thumb.webp": {
+      "inputHash": "5e280d37562ff83e",
+      "file": "thumbnails/media/cover-thumb.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/cover.webp": {
+      "inputHash": "a2f58f5f02d70885",
+      "file": "thumbnails/media/cover.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/screenshot-0.webp": {
+      "inputHash": "f94d4e0c5859ca9f",
+      "file": "thumbnails/media/screenshot-0.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "originals/7210-back.png": {
+      "inputHash": "bf40910c3a26a6a6",
+      "file": "thumbnails/originals/7210-back.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-02.png": {
+      "inputHash": "0d403c0ffc2b2e22",
+      "file": "thumbnails/originals/7210-face-02.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-03.png": {
+      "inputHash": "a35ac9057cf1ad6a",
+      "file": "thumbnails/originals/7210-face-03.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-04.png": {
+      "inputHash": "61c7af5b514cf601",
+      "file": "thumbnails/originals/7210-face-04.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-05.png": {
+      "inputHash": "99baa7157c8361f8",
+      "file": "thumbnails/originals/7210-face-05.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-06.png": {
+      "inputHash": "da22dbcbd8832f81",
+      "file": "thumbnails/originals/7210-face-06.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-07.png": {
+      "inputHash": "b246aeaaa7495e42",
+      "file": "thumbnails/originals/7210-face-07.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-09.png": {
+      "inputHash": "3b8d687fb668aaa5",
+      "file": "thumbnails/originals/7210-face-09.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-10.png": {
+      "inputHash": "2b1f56ce7e129ffb",
+      "file": "thumbnails/originals/7210-face-10.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-11.png": {
+      "inputHash": "cf2503ae78d681a9",
+      "file": "thumbnails/originals/7210-face-11.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-12.png": {
+      "inputHash": "cad60c770ce80642",
+      "file": "thumbnails/originals/7210-face-12.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-13.png": {
+      "inputHash": "16c1b3ec7b9243ce",
+      "file": "thumbnails/originals/7210-face-13.png.webp",
+      "width": 183,
+      "height": 256
+    },
+    "originals/7210-face-14.png": {
+      "inputHash": "481c8a5fb2b17a73",
+      "file": "thumbnails/originals/7210-face-14.png.webp",
+      "width": 183,
+      "height": 256
+    }
+  }
+}
