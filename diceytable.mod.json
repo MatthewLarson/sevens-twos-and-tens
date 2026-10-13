@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "new-mod-workspace",
   "name": "Seven, Twos, & Tens",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -26,10 +26,7 @@
     "assets/textures/decks/deck-1/sheet-1.webp",
     "media/cover-thumb.webp",
     "media/cover.webp",
-    "media/screenshot-0.webp",
-    "models/chess_set_1k.collider.glb",
-    "models/chess_set_1k.glb",
-    "models/chess_set_1k.meta.json"
+    "media/screenshot-0.webp"
   ],
   "compatibility": {
     "engine": ">=0.1 <1.0"
@@ -74,5 +71,64 @@
       "path": "rules/rules.md"
     }
   ],
-  "description": "# Seven, Twos & Tens\n\n**Easy to learn. Hard to predict. Brutally satisfying.**\n\n**Seven, Twos & Tens** is a fast-paced shedding card game where the goal is simple: **be the first player to get rid of every card you have**.\n\nPlay cards that match or beat the current value, stack matching cards together, and use powerful special cards to take control:\n\n- **2 — Reset:** Reset the pile and play again.\n- **7 — Invisible:** Force the next player to beat the card underneath it.\n- **10 — Explode:** Clear the entire discard pile and start fresh.\n\nCan't make a play? **Pick up the whole pile.**\n\nThe tension really builds once your hand is gone. Players must then work through three face-up cards before reaching their final three hidden cards, which are played **without looking first**. One lucky flip can win the game. One bad flip can put the entire pile back in your hand.\n\nPlay all four copies of the same value together and you'll clear the pile just like a 10, creating even more chances for big reversals.\n\nDesigned for **2 or more players**, Seven, Twos & Tens combines simple rules, quick turns, strategy, luck, and just the right amount of chaos.\n\n**Save your specials. Watch the pile. And whatever you do, don't get stuck picking it all back up.**"
+  "description": "# Seven, Twos & Tens\n\n**Easy to learn. Hard to predict. Brutally satisfying.**\n\n**Seven, Twos & Tens** is a fast-paced shedding card game where the goal is simple: **be the first player to get rid of every card you have**.\n\nPlay cards that match or beat the current value, stack matching cards together, and use powerful special cards to take control:\n\n- **2 — Reset:** Reset the pile and play again.\n- **7 — Invisible:** Force the next player to beat the card underneath it.\n- **10 — Explode:** Clear the entire discard pile and start fresh.\n\nCan't make a play? **Pick up the whole pile.**\n\nThe tension really builds once your hand is gone. Players must then work through three face-up cards before reaching their final three hidden cards, which are played **without looking first**. One lucky flip can win the game. One bad flip can put the entire pile back in your hand.\n\nPlay all four copies of the same value together and you'll clear the pile just like a 10, creating even more chances for big reversals.\n\nDesigned for **2 or more players**, Seven, Twos & Tens combines simple rules, quick turns, strategy, luck, and just the right amount of chaos.\n\n**Save your specials. Watch the pile. And whatever you do, don't get stuck picking it all back up.**",
+  "credits": [
+    {
+      "id": "credit-55c82bc0-83de-42a6-bf03-308ba528697b",
+      "paths": [
+        "media/screenshot-0.webp",
+        "media/cover.webp",
+        "media/cover-thumb.webp"
+      ],
+      "origin": "own-work",
+      "title": "Marketing Images",
+      "recordedAt": "2026-10-13T17:25:57.575Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-10-13T17:25:57.575Z",
+        "signedName": "Matt Larson"
+      }
+    },
+    {
+      "id": "credit-dcf286d2-0deb-4a85-aab7-7fc3999663f0",
+      "paths": [
+        "assets/textures/decks/deck-1/sheet-1.webp",
+        "assets/textures/decks/deck-1/cards/012-7210-face-14.webp",
+        "assets/textures/decks/deck-1/cards/011-7210-face-13.webp",
+        "assets/textures/decks/deck-1/cards/010-7210-face-12.webp",
+        "assets/textures/decks/deck-1/cards/009-7210-face-11.webp",
+        "assets/textures/decks/deck-1/cards/009-7210-face-11.ktx2",
+        "assets/textures/decks/deck-1/cards/008-7210-face-10.webp",
+        "assets/textures/decks/deck-1/cards/007-7210-face-09.webp",
+        "assets/textures/decks/deck-1/cards/006-7210-face-08.webp",
+        "assets/textures/decks/deck-1/cards/005-7210-face-07.webp",
+        "assets/textures/decks/deck-1/cards/004-7210-face-06.webp",
+        "assets/textures/decks/deck-1/cards/003-7210-face-05.webp",
+        "assets/textures/decks/deck-1/cards/002-7210-face-04.webp",
+        "assets/textures/decks/deck-1/cards/001-7210-face-03.webp",
+        "assets/textures/decks/deck-1/cards/000-7210-face-02.webp",
+        "7210-face-14.webp",
+        "7210-face-13.webp",
+        "7210-face-12.webp",
+        "7210-face-11.webp",
+        "7210-face-10.webp",
+        "7210-face-09.webp",
+        "7210-face-07.webp",
+        "7210-face-06.webp",
+        "7210-face-05.webp",
+        "7210-face-04.webp",
+        "7210-face-03.webp",
+        "7210-face-02.webp",
+        "7210-back.webp"
+      ],
+      "origin": "own-work",
+      "title": "Card Images and Deck Setup File",
+      "recordedAt": "2026-10-13T17:26:30.662Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-10-13T17:26:30.662Z",
+        "signedName": "Matt Larson"
+      }
+    }
+  ]
 }
