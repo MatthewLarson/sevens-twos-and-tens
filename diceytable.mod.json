@@ -130,5 +130,20 @@
         "signedName": "Matt Larson"
       }
     }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "name": "Standard"
+    },
+    {
+      "id": "scripted",
+      "name": "Scripted",
+      "rulesEnforced": true,
+      "ranking": {
+        "requireKernel": true
+      },
+      "description": "A scripted version of Seven, Twos and Tens"
+    }
   ]
 }
