@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "new-mod-workspace",
   "name": "Seven, Twos, & Tens",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -22,6 +22,7 @@
     "7210-face-12.webp",
     "7210-face-13.webp",
     "7210-face-14.webp",
+    "ai/seven-net.onnx",
     "assets/decks/deck-1.deck.json",
     "assets/textures/decks/deck-1/sheet-1.webp",
     "media/cover-thumb.webp",
@@ -129,6 +130,32 @@
         "acceptedAt": "2026-10-13T17:26:30.662Z",
         "signedName": "Matt Larson"
       }
+    },
+    {
+      "id": "credit-488c2604-0172-4bef-95d8-d5cae4828f90",
+      "paths": [
+        "ai/seven-net.onnx"
+      ],
+      "origin": "own-work",
+      "title": "Seven, Twos & Tens AI network",
+      "notes": "Trained 2026-10-18 by Claude (AI agent) for this project: a botnet-v1 6x64 policy/value network, first imitating a PIMC search bot (10,000 teacher games) and then improved by self-play (4,000 games). Data and tools: docs/feature-plans/game-bots/seven-twos-tens in the DiceyTable repo. No third-party data or weights.",
+      "recordedAt": "2026-10-18T23:33:51.750Z",
+      "aiAttestation": {
+        "termsVersion": "2026-09-07.1",
+        "agentSessionId": "4a0d25b3-7539-4922-bf5b-834ced0ad927",
+        "client": "claude-code 2.1.296",
+        "attestedAt": "2026-10-18T23:33:51.750Z",
+        "review": {
+          "reviewedAt": "2026-10-18T23:36:46.310Z",
+          "signedName": "Matt Larson",
+          "termsVersion": "2026-09-07.1"
+        }
+      },
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-10-18T23:36:46.310Z",
+        "signedName": "Matt Larson"
+      }
     }
   ],
   "variants": [
@@ -145,5 +172,132 @@
       },
       "description": "A scripted version of Seven, Twos and Tens"
     }
-  ]
+  ],
+  "bots": [
+    {
+      "id": "greedy",
+      "label": "Greedy",
+      "kind": "scripted",
+      "handler": "greedy",
+      "description": "Plays the lowest card that beats the pile and saves its 2s, 7s and 10s. A friendly first opponent."
+    },
+    {
+      "id": "card-shark",
+      "label": "Card Shark",
+      "kind": "scripted",
+      "handler": "card-shark",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy",
+          "description": "Plays out 6 imagined deals per move."
+        },
+        {
+          "id": "normal",
+          "label": "Normal",
+          "description": "Plays out 16 imagined deals per move."
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "description": "Plays out 48 imagined deals per move."
+        }
+      ],
+      "defaultDifficulty": "normal",
+      "description": "Imagines the cards it can't see many times over and plays each option out before it moves. It never peeks."
+    },
+    {
+      "id": "seven-ai",
+      "label": "Seven AI",
+      "kind": "ai",
+      "modelId": "seven-net",
+      "fallbackBotId": "card-shark",
+      "handler": "seven-ai",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy",
+          "description": "A short, loose search (16 positions a move).",
+          "modelId": "seven-net"
+        },
+        {
+          "id": "normal",
+          "label": "Normal",
+          "description": "64 positions a move over 2 imagined deals.",
+          "modelId": "seven-net"
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "description": "160 positions a move over 4 imagined deals.",
+          "modelId": "seven-net"
+        }
+      ],
+      "defaultDifficulty": "normal",
+      "description": "A trained network guiding a search over the deals it can't see. It never peeks. Beats Card Shark Hard about 60% of the time."
+    }
+  ],
+  "aiModels": [
+    {
+      "id": "seven-net",
+      "label": "Seven, Twos & Tens net",
+      "path": "ai/seven-net.onnx",
+      "format": "onnx",
+      "sizeBytes": 1970541,
+      "sha256": "8360a8d8a8a395718525e5d38c71d08edb3501cc7b0cedafcb0eea8e82f26e1c",
+      "inputs": [
+        {
+          "name": "board",
+          "shape": [
+            -1,
+            31,
+            4,
+            13
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "policy",
+          "shape": [
+            -1,
+            121
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "value",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17,
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy",
+          "simsPerMove": 16,
+          "temperature": 0.6
+        },
+        {
+          "id": "normal",
+          "label": "Normal",
+          "simsPerMove": 64,
+          "temperature": 0
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "simsPerMove": 160,
+          "temperature": 0
+        }
+      ]
+    }
+  ],
+  "diceEnabled": false
 }
