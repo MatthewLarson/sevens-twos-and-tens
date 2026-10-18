@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "new-mod-workspace",
   "name": "Seven, Twos, & Tens",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
